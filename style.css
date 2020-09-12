@@ -1,0 +1,76 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote{
+     padding: 0; border: 0; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3% 10% 3% 0;
+    cursor: grab;
+    margin: 2%;
+    border: 2px solid black;
+    height: 600px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  img:hover {
+    cursor: crosshair;
+    margin-right: 5%;
+  }
+
+  h1, button {
+    margin-top: 20%;
+    margin-bottom: 15%;
+  }
+
+  h1:hover {
+    background-color: yellow;
+    color: aqua;
+    font-size: 72px;
+    cursor: crosshair;
+  }
+
+  button {
+    height: 50px;
+    width: 200%;
+    border-radius: 30%;
+    box-shadow: 2px 2px 2px;
+    font-size: 16px;
+  }
+
+  button:hover{
+    background-color: red;
+    height: 40%;
+    width: 500%;
+    font-size: 36px;
+    color: lime;
+    text-decoration: underline;
+    cursor: crosshair;
+  }
+
+  #hidden {
+    color: white;
+  }
+
+  h4 {
+    margin: 5% 0 0 5%
+  }
+
+  h3 {
+    margin-top: 100%;
+  }
+
+  footer {
+    margin-top: 800%;
+    width: 100%;
+  }
+
+  p {
+    color: white;
+    margin-left: 50%;
+  }
+
+  
